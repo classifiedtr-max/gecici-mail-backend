@@ -1,0 +1,23 @@
+{
+  "name": "gecici-mail-backend",
+  "version": "1.0.0",
+  "description": "10 Dakika Geçici Mail - Mail.tm API tabanlı backend",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": ["gecici mail", "10 dakika mail", "mail.tm", "temp mail"],
+  "author": "YourName",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.4.5",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
